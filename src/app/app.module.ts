@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { LinkSosmedComponent } from './components/link-sosmed/link-sosmed.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { GmailComponent } from './components/gmail/gmail.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GmailComponent } from './components/gmail/gmail.component';
     HomeComponent,
     LinkSosmedComponent,
     HeroComponent,
-    GmailComponent
+    GmailComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
