@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { SwiperModule } from 'swiper/angular';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { WorkComponent } from './components/work/work.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeroComponent,
     GmailComponent,
     AboutComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
