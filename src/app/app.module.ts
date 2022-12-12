@@ -9,6 +9,9 @@ import { LinkSosmedComponent } from './components/link-sosmed/link-sosmed.compon
 import { HeroComponent } from './components/hero/hero.component';
 import { GmailComponent } from './components/gmail/gmail.component';
 import { AboutComponent } from './components/about/about.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { SwiperModule } from 'swiper/angular';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { AboutComponent } from './components/about/about.component';
     LinkSosmedComponent,
     HeroComponent,
     GmailComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
