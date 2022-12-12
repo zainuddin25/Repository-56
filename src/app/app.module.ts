@@ -13,6 +13,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { SwiperModule } from 'swiper/angular';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { WorkComponent } from './components/work/work.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { WorkComponent } from './components/work/work.component';
     GmailComponent,
     AboutComponent,
     ExperienceComponent,
-    WorkComponent
+    WorkComponent,
+    ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
