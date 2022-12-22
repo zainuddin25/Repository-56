@@ -25,6 +25,7 @@
     "material-icons": "^1.13.1",
     "rxjs": "~7.5.0",
     "swiper": "^8.4.5",
+    "tailwind-scrollbar": "^2.0.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
